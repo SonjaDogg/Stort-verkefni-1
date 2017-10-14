@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="grid" lang="is">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Verkefni 7 - kaupa</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="styleguide.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
+  </head>
+
+  <header class="header">
+    <div class="grid">
+      <div class="top">
+        <h1 class="heading heading--one">Fooþjónusta</h1>
+        <div class="button">
+          <div class="button button--one">
+            <a href="um.html">Um</a>
+          </div>
+          <div class="button button--two">
+            <a href="kaupa.html">Kaupa</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__image">
+        <h2 class="heading heading--two">Kaupa</h2>
+        <img src="bg-subpage.jpg" alt="" class="header__img">
+      </div>
+    </div>
+  </header>
+
+  <body>
+    <main>
+      <div class="grid">
+        <div class="row">
+          <div class="col col-4 col-sm-6 col-xs-12">
+            <form action="/skraning">
+              <div class="information">
+                <div>
+                  <div>
+                    <label for="name">Nafn:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="name" required pattern="[a-zA-Z]*">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="kt">Kennitala:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="kt" value="123456-7890" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="gender">Kyn:</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="gender" value="female">Kona
+                  </div>
+                  <div>
+                    <input type="radio" name="gender" value="male">Karl
+                  </div>
+                  <div>
+                    <input type="radio" name="gender" value="other">Annað
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="phone">Sími:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="phone" value="+354 812 3456" required pattern="[+][0-9][0-9][0-9] [0-9][0-9][0-9][0-9] [0-9][0-9][0-9]">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="address">Heimilisfang:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="address" required pattern="[a-zA-Z]* [0-9]*">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="maillist"></label>
+                  </div>
+                  <div>
+                    <input type="checkbox" name="maillist" value="mail" checked>Skrá mig á póstlista
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col col-4 col-sm-6 col-xs-12">
+            <form action="/skraning">
+              <div class="information">
+                <div>
+                  <div>
+                    <label for="payment">Greiða með:</label>
+                  </div>
+                  <div>
+                    <select name="payment" id="payment">
+                      <option>Kreditkorti</option>
+                      <option>Millifærslu</option>
+                      <option>Reiðufé</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="nameoncard">Nafn á korti:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="nameoncard" required pattern="[a-zA-Z]* [a-zA-Z]* [a-zA-Z]* [a-zA-Z]*">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="cardnumber">Kortanúmer:</label>
+                  </div>
+                  <div>
+                    <input type="text" id="cardnumber" value="9999-9999-9999-9999" required pattern="[0-9][0-9][0-9] [0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]">
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label for="validuntil">Gildistími:</label>
+                  </div>
+                  <div>
+                    <label for="month">Mán</label>
+                    <select name="validuntil" id="validuntil">
+                      <option>01</option>
+                      <option>02</option>
+                      <option>03</option>
+                      <option>04</option>
+                      <option>05</option>
+                      <option>06</option>
+                      <option>07</option>
+                      <option>08</option>
+                      <option>09</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                    </select>
+                    <label for="year">Ár</label>
+                    <select name="validuntil" id="validuntil">
+                      <option>2017</option>
+                      <option>2018</option>
+                      <option>2019</option>
+                      <option>2020</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-4 col-sm-6 col-xs-12">
+            <div class="button">
+              <div class="button button--three">Panta</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <div class="grid">
+      <div class="bottom">
+        <div class="container">
+          <p class="bottom">Fooþjónustan</p>
+          <p class="bottom">123-4567</p>
+        </div>
+        <div class="container">
+          <p class="bottom">Opið 12-13 alla daga</p>
+          <p class="bottom">Bargata 1</p>
+          <p class="bottom">900 Foobar</p>
+        </div>
+        <div class="bottom bottom--one">
+          <p class="bottom">© Fooþjónustan 2017</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
