@@ -67,11 +67,13 @@ main {
     margin-left: 0; } }
 
 .header {
+  position: relative;
   display: flex;
   max-width: 1200px;
-  min-height: 200px;
+  max-height: 200px;
   margin: 0 auto 20px;
-  align-items: center; }
+  align-items: center;
+  background-color: #000; }
 
 .heading {
   width: 100%;
@@ -83,9 +85,12 @@ main {
       padding-right: 0;
       padding-left: 0; } }
   .heading--one {
-    font-size: 3rem; }
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 10px; }
   .heading--two {
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #fff; }
   .heading--three {
     font-size: 1rem; }
 
@@ -93,7 +98,7 @@ main {
   margin-bottom: 20px; }
 
 .button {
-  display: inline-block;
+  display: flex;
   width: 100%;
   max-width: 256px;
   padding: 10px 5px;
@@ -124,6 +129,24 @@ main {
     color: #999;
     background-color: #eee;
     border-color: #eee; }
+  .button--one {
+    position: absolute;
+    right: 90px;
+    width: 70px;
+    box-sizing: border-box;
+    margin-top: -60px;
+    background-color: transparent;
+    border: 0; }
+  .button--two {
+    position: absolute;
+    right: 10px;
+    width: 70px;
+    margin-top: -60px; }
+  .button--three {
+    display: inline-block; }
+  .button a {
+    color: #fff;
+    text-decoration: none; }
 
 .card {
   width: 100%;
