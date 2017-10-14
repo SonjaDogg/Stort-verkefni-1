@@ -15,12 +15,14 @@ html {
   /* stylelint-disable-line */
   margin-right: 20px;
   margin-left: 20px;
-  font-family: Lato, helvetica, arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px; }
   @media (min-width: 1200px) {
     html {
       margin: 0; } }
+
+h1.heading {
+  font-family: "Roboto Slab", serif; }
 
 img {
   /* stylelint-disable-line */
@@ -76,7 +78,7 @@ main {
 
 .heading {
   width: 100%;
-  font-family: Merriweather, georgia, serif;
+  font-family: "Roboto Slab", serif;
   font-size: 2rem;
   border: 0; }
   @media (min-width: 1200px) {

@@ -22,13 +22,16 @@ html { /* stylelint-disable-line */
   margin-right: $gutter;
   margin-left: $gutter;
 
-  font-family: Lato, helvetica, arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
 
   @media (min-width: $max-width) {
     margin: 0;
   }
+}
+
+h1.heading {
+  font-family: "Roboto Slab", serif;
 }
 
 img { /* stylelint-disable-line */
