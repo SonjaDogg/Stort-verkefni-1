@@ -51,6 +51,12 @@
       }
     }
   }
+
+  &-xs {
+    &-12 {
+      @include columns(12);
+    }
+  }
 }
 
 .offset {
