@@ -1,5 +1,5 @@
 .button {
-  display: inline-block;
+  display: flex;
 
   width: 100%;
   max-width: 256px;
@@ -45,5 +45,34 @@
     color: #999;
     background-color: #eee;
     border-color: #eee;
+  }
+
+  &--one {
+    //text-align: center;
+    position: absolute;
+    right: 90px;
+    width: 70px;
+    box-sizing: border-box;
+    margin-top: -60px;
+    background-color: transparent;
+    border: 0;
+    //vertical-align: middle;
+  }
+
+  &--two {
+    position: absolute;
+    right: 10px;
+    width: 70px;
+    margin-top: -60px;
+  }
+
+  &--three {
+    display: inline-block;
+  }
+
+  a {
+    color: #fff;
+    //text-align: center;
+    text-decoration: none;
   }
 }

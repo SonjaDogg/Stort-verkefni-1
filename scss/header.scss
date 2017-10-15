@@ -1,8 +1,10 @@
 .header {
+  position: relative;
   display: flex;
   max-width: $max-width;
-  min-height: 200px;
+  max-height: 200px;
   margin: 0 auto $gutter;
   align-items: center;
   background-color: #000;
+  
 }
