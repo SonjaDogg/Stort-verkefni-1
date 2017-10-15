@@ -2,4 +2,28 @@
   max-height: 600px;
   background-color: #404749;
   color: #fff;
+
+  &--container {
+    display: flex;
+
+    width: 100%;
   }
+
+  &--open {
+    margin: auto;
+    text-align: center;
+  }
+
+  &--contact {
+    margin: auto;
+  }
+
+  &--line {
+    border-bottom: 2px solid #999;
+  }
+
+  &--copyright {
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+}
