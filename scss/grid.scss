@@ -30,6 +30,10 @@
 
   &-6 {
     @include columns(6);
+
+    @media (max-width: 600px){
+      @include columns(12);
+    }
   }
 
   &-4 {
