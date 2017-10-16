@@ -62,12 +62,16 @@
 }
 
 .offset {
+  &-1 {
+    margin-left: (1 / 12 * 100) * 1%;
+  }
+
   &-2 {
     margin-left: (2 / 12 * 100) * 1%; // reiknað einsog að ofan
   }
 
-  &-1 {
-    margin-left: (1 / 12 * 100) * 1%;
+  &-4 {
+    margin-left: (4 / 12 * 100) * 1%;
   }
 
   &-sm {
