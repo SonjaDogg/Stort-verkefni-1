@@ -1,7 +1,8 @@
 .footer {
   max-height: 600px;
-  background-color: #404749;
+  margin-top: 50px;
   color: #fff;
+  background-color: #404749;
 
   &--container {
     display: flex;
@@ -23,7 +24,7 @@
   }
 
   &--copyright {
-    margin: auto;
     padding-bottom: 2rem;
+    margin: auto;
   }
 }
