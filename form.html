@@ -43,104 +43,66 @@
           <div class="offset-1 col col-4 col-sm-6 col-xs-12">
             <form action="/skraning">
               <div class="information">
-                <div>
-                  <p class="text__um">Persónuupplýsingar</p>
-                  <div>
-                    <label for="name">Nafn:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="name" required pattern="[a-zA-Z]*">
-                  </div>
+                <p class="information__um">Persónuupplýsingar</p>
+                <div class="field">
+                  <label class="field__label" for="name">Nafn:</label>
+                  <input class="field__input" type="text" id="name" required pattern="[a-zA-Z]*">
                 </div>
-                <div>
-                  <div>
-                    <label for="kt">Kennitala:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="kt" value="123456-7890" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]">
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="kt">Kennitala:</label>
+                  <input class="field__input" type="text" id="kt" value="123456-7890" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]">
                 </div>
-                <div>
-                  <div>
-                    <label for="gender">Kyn:</label>
-                  </div>
-                  <div>
-                    <input type="radio" name="gender" value="female">Kona
-                  </div>
-                  <div>
-                    <input type="radio" name="gender" value="male">Karl
-                  </div>
-                  <div>
-                    <input type="radio" name="gender" value="other">Annað
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="gender">Kyn:</label>
+                  <input class="field__radio" type="radio" name="gender" value="female"> Kona
+                  <label>
+                    <input class="field__radio" type="radio" name="gender" value="male"> Karl
+                  </label>
+                  <label>
+                    <input class="field__radio" type="radio" name="gender" value="other"> Annað
+                  </label>
                 </div>
-                <div>
-                  <div>
-                    <label for="phone">Sími:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="phone" value="+354 812 3456" required pattern="[+][0-9][0-9][0-9] [0-9][0-9][0-9][0-9] [0-9][0-9][0-9]">
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="phone">Sími:</label>
+                  <input class="field__input" type="text" id="phone" value="+354 812 3456" required pattern="[+][0-9][0-9][0-9] [0-9][0-9][0-9][0-9] [0-9][0-9][0-9]">
                 </div>
-                <div>
-                  <div>
-                    <label for="address">Heimilisfang:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="address" required pattern="[a-zA-Z]* [0-9]*">
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="address">Heimilisfang:</label>
+                  <input class="field__input" type="text" id="address" required pattern="[a-zA-Z]* [0-9]*">
                 </div>
-                <div>
-                  <div>
-                    <label for="maillist"></label>
-                  </div>
-                  <div>
-                    <input type="checkbox" name="maillist" value="mail" checked>Skrá mig á póstlista
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="maillist"></label>
+                  <input class="field__choice" type="checkbox" name="maillist" checked> Skrá mig á póstlista
                 </div>
               </div>
             </form>
           </div>
 
-          <div class="offset-1 col col-4 col-sm-6 col-xs-12">
+          <div class="offset-2 col col-4 col-sm-6 col-xs-12">
             <form action="/skraning">
               <div class="information">
-                <div>
-                  <p class="text__um">Greiðsluupplýsingar</p>
-                  <div>
-                    <label for="payment">Greiða með:</label>
-                  </div>
-                  <div>
-                    <select name="payment" id="payment">
+                <p class="information__um">Greiðsluupplýsingar</p>
+                <div class="field">
+                  <label class="field__label" for="payment">Greiða með:</label>
+                  <select class="field__input" name="payment" id="payment">
                       <option>Kreditkorti</option>
                       <option>Millifærslu</option>
                       <option>Reiðufé</option>
-                    </select>
-                  </div>
+                  </select>
                 </div>
-                <div>
-                  <div>
-                    <label for="nameoncard">Nafn á korti:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="nameoncard" required pattern="[a-zA-Z]* [a-zA-Z]* [a-zA-Z]* [a-zA-Z]*">
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="nameoncard">Nafn á korti:</label>
+                  <input class="field__input" type="text" id="nameoncard" required pattern="[a-zA-Z]* [a-zA-Z]* [a-zA-Z]* [a-zA-Z]*">
                 </div>
-                <div>
-                  <div>
-                    <label for="cardnumber">Kortanúmer:</label>
-                  </div>
-                  <div>
-                    <input type="text" id="cardnumber" value="9999-9999-9999-9999" required pattern="[0-9][0-9][0-9] [0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]">
-                  </div>
+                <div class="field">
+                  <label class="field__label" for="cardnumber">Kortanúmer:</label>
+                  <input class="field__input" type="text" id="cardnumber" value="9999-9999-9999-9999" required pattern="[0-9][0-9][0-9] [0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]">
                 </div>
-                <div>
-                  <div>
-                    <label for="validuntil">Gildistími:</label>
-                  </div>
-                  <div>
-                    <label for="month">Mán</label>
-                    <select name="validuntil" id="validuntil">
+                <div class="field">
+                  <label class="field__label" for="validuntil">Gildistími:</label>
+
+                  <label class="field__label" for="month">Mán</label>
+                    <select class="field__choice" name="validuntil" id="validuntil">
                       <option>01</option>
                       <option>02</option>
                       <option>03</option>
@@ -154,21 +116,21 @@
                       <option>11</option>
                       <option>12</option>
                     </select>
-                    <label for="year">Ár</label>
-                    <select name="validuntil" id="validuntil">
+                  <label class="field__label" for="year">Ár</label>
+                    <select class="field__choice" name="validuntil" id="validuntil">
                       <option>2017</option>
                       <option>2018</option>
                       <option>2019</option>
                       <option>2020</option>
                     </select>
-                  </div>
                 </div>
               </div>
             </form>
           </div>
         </div>
+
         <div class="row">
-          <div class="col col-4 col-sm-6 col-xs-12">
+          <div class="offset-4 col col-4 col-sm-6 col-xs-12">
             <div class="button">
               <div class="button button--three">Panta</div>
             </div>
@@ -186,7 +148,7 @@
           <div class="footer footer--container">
 
             <div class="footer footer--contact">
-              Fooþjónustan
+              Fooþjónustan<br/>
               123-4567
             </div>
 
