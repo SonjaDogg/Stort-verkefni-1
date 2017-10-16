@@ -6,11 +6,54 @@
   align-items: center;
   background-color: #000;
 
+  &--front {
+    display: flex;
+    //justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    flex-direction: column;
+
+    align-items: stretch;
+
+    background: transparent url("../images/bg.jpg") no-repeat fixed 50% 0%;
+    background-size: contain;
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .content .announcement {
+      font-size: 1.5em;
+      padding-bottom: 5px;
+      opacity: 1;
+      transition: opacity 3s ease 1s;
+    }
+
+    .content .brand {
+      font-size: 3em;
+      padding-bottom: 50px;
+      opacity: 1;
+      transition: opacity 3s ease 2s;
+    }
+
+    .button {
+      text-align: center;
+      max-width: 125px;
+      opacity: 1;
+      transition: opacity 3s ease 3s;
+    }
+  }
+
   &--about {
     display: inline-flex;
     width: 100%;
-    min-height: 500px;
+    min-height: 330px;
     flex-direction: column;
+
     align-items: stretch;
 
     background: transparent url("../images/bg-subpage.jpg") no-repeat;
