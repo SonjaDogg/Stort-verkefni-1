@@ -8,32 +8,30 @@
 
   &--about {
     display: inline-flex;
+    width: 100%;
+    min-height: 500px;
     flex-direction: column;
     align-items: stretch;
 
-    width: 100%;
-    min-height: 500px;
-
-    background: transparent url(../images/bg-subpage.jpg) no-repeat;
+    background: transparent url("../images/bg-subpage.jpg") no-repeat;
     background-size: cover;
   }
 
   &--form {
-    width: 100%;
-
     display: inline-flex;
+    width: 100%;
+    min-height: 330px;
     flex-direction: column;
+
     align-items: stretch;
 
-    width: 100%;
-    min-height: 500px;
-
-    background: transparent url(../images/bg-subpage.jpg) no-repeat;
+    background: transparent url("../images/bg-subpage.jpg") no-repeat;
     background-size: cover;
   }
 
   &--blackbar {
     display: flex;
+    height: 50px;
     opacity: 0.9;
   }
 }

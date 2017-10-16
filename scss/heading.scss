@@ -12,13 +12,15 @@
   }
 
   &--one {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 3rem;
     color: #fff;
+    text-align: inherit;
   }
 
   &--two {
-    font-size: 2rem;
+    margin-left: 5px;
+    font-size: 1.25rem;
     color: #fff;
   }
 
