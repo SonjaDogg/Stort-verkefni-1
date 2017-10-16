@@ -53,10 +53,10 @@
                   <input class="field__input" type="text" id="kt" value="123456-7890" required pattern="[0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]">
                 </div>
                 <div class="field">
-                  <label class="field__label" for="gender">Kyn:</label>
-                  <input class="field__radio" type="radio" name="gender" value="female"> Kona
+                  <label class="field__label" for="gender">Kyn:</label><br/>
+                  <input class="field__radio" type="radio" name="gender" value="female"> Kona<br/>
                   <label>
-                    <input class="field__radio" type="radio" name="gender" value="male"> Karl
+                    <input class="field__radio" type="radio" name="gender" value="male"> Karl<br/>
                   </label>
                   <label>
                     <input class="field__radio" type="radio" name="gender" value="other"> Annað
@@ -72,7 +72,7 @@
                 </div>
                 <div class="field">
                   <label class="field__label" for="maillist"></label>
-                  <input class="field__choice" type="checkbox" name="maillist" checked> Skrá mig á póstlista
+                  <input class="field__mail" type="checkbox" name="maillist" checked> Skrá mig á póstlista
                 </div>
               </div>
             </form>
@@ -99,9 +99,8 @@
                   <input class="field__input" type="text" id="cardnumber" value="9999-9999-9999-9999" required pattern="[0-9][0-9][0-9] [0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]">
                 </div>
                 <div class="field">
-                  <label class="field__label" for="validuntil">Gildistími:</label>
-
-                  <label class="field__label" for="month">Mán</label>
+                  <label class="field__label" for="validuntil">Gildistími:</label><br/>
+                  <label class="field__choice" for="month">Mán</label>
                     <select class="field__choice" name="validuntil" id="validuntil">
                       <option>01</option>
                       <option>02</option>
@@ -116,7 +115,8 @@
                       <option>11</option>
                       <option>12</option>
                     </select>
-                  <label class="field__label" for="year">Ár</label>
+
+                  <label class="field__choice" for="year">Ár</label>
                     <select class="field__choice" name="validuntil" id="validuntil">
                       <option>2017</option>
                       <option>2018</option>
@@ -144,9 +144,7 @@
     <div class="grid">
       <div class="row">
         <div class="col col-12">
-
           <div class="footer footer--container">
-
             <div class="footer footer--contact">
               Fooþjónustan<br/>
               123-4567
@@ -157,26 +155,23 @@
               Bargata 1<br/>
               900 Foobar<br/>
             </div>
-
           </div>
         </div>
-
-        </div>
-
-
-        <div class="row">
-          <div class="col col-12">
-            <div class="footer footer--line">
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="footer bottom footer--copyright">
-              © Fooþjónustan 2017
-            </div>
-        </div>
-
       </div>
+
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer footer--line">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="footer bottom footer--copyright">
+          © Fooþjónustan 2017
+        </div>
+      </div>
+
+    </div>
   </footer>
 </html>
