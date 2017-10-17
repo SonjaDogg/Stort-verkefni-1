@@ -4,7 +4,7 @@
   "description": "Vefforritun 2017 - Stórt Verkefni 1",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html kaupa.html um.html styles.css",
+    "browser-sync": "browser-sync start --server --files index.html form.html um.html styles.css",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
@@ -15,9 +15,10 @@
     "browser-sync": "^2.18.13",
     "npm-run-all": "^4.1.1",
     "stylelint": "^8.1.1",
-    "stylelint-config-primer": "^2.0.1"
+    "stylelint-config-primer": "^2.1.0"
   },
   "dependencies": {
+    "node-gyp": "^3.6.2",
     "node-sass": "^4.5.3"
   }
 }
