@@ -31,6 +31,9 @@
   &-6 {
     @include columns(6);
 
+    display: flex;
+    align-content: stretch;
+
     @media (max-width: 600px) {
       @include columns(12);
     }
