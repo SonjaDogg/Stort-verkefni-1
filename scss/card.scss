@@ -5,23 +5,15 @@
 
   overflow: hidden;
 
-  background-color: #eee;
-  border-radius: 3px;
-
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-
-  transition: background-color 500ms ease;
-
-  &:hover {
-    background-color: #ddd;
-  }
-
   &__heading {
     width: 100%;
     margin-bottom: 15px;
+    text-align: center;
 
     font-family: Merriweather, georgia, serif;
-    font-size: 1.5rem;
+    font-weight:700;
+    font-style: italic;
+    font-size: 1.125rem;
 
     word-break: break-word;
   }
@@ -34,7 +26,12 @@
   }
 
   &__text {
-    margin-bottom: 30px;
+    font-size: 1em;
+    font-weight: bolder;
+    &--sub {
+      font-size: 0.875em;
+      font-weight: lighter;
+    }
   }
 
   &__img {

@@ -13,4 +13,18 @@
     padding-top: 1rem;
     font-size: 0.75rem;
   }
+  &__punchline {
+    text-align: center;
+    font-size: 1.3125em;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  &__perk{
+    font-size: 0.875em;
+  }
+  &--bold {
+    font-size: 1.3125em;
+    font-weight: bolder;
+  }
 }
