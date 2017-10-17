@@ -1,0 +1,26 @@
+.field {
+  margin-top: 15px;
+  font-size: 0.8rem;
+
+  &__input {
+    display: block;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  &__radio {
+    margin-top: 15px;
+    font-size: 0.8rem;
+  }
+
+  &__choice {
+    width: 39.5%;
+  }
+}
+
+.information {
+  &__um {
+    margin-top: 50px;
+    font-size: 1.25rem;
+  }
+}
