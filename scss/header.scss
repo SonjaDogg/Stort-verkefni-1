@@ -8,54 +8,55 @@
 
   &--front {
     display: flex;
-    flex-direction: column;
-
     width: 100%;
     min-height: 600px;
+    flex-direction: column;
 
     background: transparent url("images/bg.jpg") no-repeat fixed 50% 50%;
     background-size: cover;
 
     .content {
-      margin: auto;
       display: flex;
+      margin: auto;
       flex-direction: column;
       align-items: center;
     }
 
     .content .announcement {
-      font-size: 1.5em;
       padding-bottom: 20px;
+      font-size: 1.5em;
       opacity: 0;
       transition: opacity 3s ease 1s;
     }
 
     .brand {
-      font-size: 3em;
       padding-bottom: 50px;
+      font-size: 3em;
       opacity: 0;
       transition: opacity 3s ease 2s;
     }
 
     .button {
-      text-align: center;
       max-width: 125px;
+      text-align: center;
       opacity: 0;
       transition: opacity 3s ease 3s;
     }
   }
   // transitions when cursor hovers head image
-&--front:hover {
-  .brand {
+  &--front:hover {
+    .brand {
       opacity: 1;
+    }
+
+    .announcement {
+      opacity: 1;
+    }
+
+    .button {
+      opacity: 1;
+    }
   }
-  .announcement{
-    opacity: 1;
-  }
-  .button {
-    opacity: 1;
-  }
-}
 
   &--about {
     display: inline-flex;
