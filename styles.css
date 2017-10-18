@@ -25,10 +25,6 @@ html {
 @media (max-width: 1200px) {
   html {
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     width: calc(100% - (2 * var(--offset)));
     max-width: var(--max_width);
     margin-right: auto;
@@ -190,6 +186,7 @@ blockquote.about {
   .footer--copyright {
     padding-bottom: 2rem;
     margin: auto;
+    text-align: center;
     opacity: 0.7; }
 
 .heading {
@@ -212,6 +209,7 @@ blockquote.about {
     font-size: 1.25rem;
     color: #fff; }
   .heading--three {
+    margin-top: 50px;
     font-size: 2rem;
     color: #000; }
 
@@ -263,16 +261,6 @@ blockquote.about {
   .button:hover {
     color: #eee;
     background-color: #333; }
-  .button--inverted {
-    color: #666;
-    background-color: #eee; }
-  .button--inverted:hover {
-    color: #333;
-    background-color: #ccc; }
-  .button--disabled, .button--disabled:hover {
-    color: #999;
-    background-color: #eee;
-    border-color: #eee; }
   .button--one {
     right: 90px;
     width: 70px;
@@ -287,9 +275,11 @@ blockquote.about {
   .button--three {
     display: block;
     padding: 5px 0;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 50px; }
   .button a {
-    color: #fff; }
+    color: #fff;
+    text-decoration: none; }
 
 .card {
   width: 100%;
@@ -378,6 +368,7 @@ blockquote.about {
   .footer--copyright {
     padding-bottom: 2rem;
     margin: auto;
+    text-align: center;
     opacity: 0.7; }
 
 .field {
@@ -396,3 +387,24 @@ blockquote.about {
 .information__um {
   margin-top: 50px;
   font-size: 1.25rem; }
+
+.perk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between; }
+  .perk .odyr,
+  .perk .thaigilegt,
+  .perk .naudsynlegt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; }
+  .perk__check {
+    width: 1.2em;
+    min-width: 1.2em;
+    max-width: 1.2em; }
+    .perk__check img {
+      width: 100%;
+      height: 100%; }
+
+.row--front {
+  margin-bottom: -20px; }
