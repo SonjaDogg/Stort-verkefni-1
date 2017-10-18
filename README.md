@@ -29,6 +29,7 @@ The scss files in the project are:
 * grid.scss
 * header.scss
 * heading.scss
+* perk.scss
 * text.scss
 
 
