@@ -65,6 +65,10 @@ blockquote.about {
   flex-direction: column;
 }
 
+.row--front {
+  margin-bottom: -$gutter;
+}
+
 @import "scss/grid";
 @import "scss/header";
 @import "scss/footer";
@@ -76,7 +80,3 @@ blockquote.about {
 @import "scss/footer";
 @import "scss/field";
 @import "scss/perk";
-
-.row--front {
-  margin-bottom: -20px;
-}

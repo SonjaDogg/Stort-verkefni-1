@@ -1,6 +1,6 @@
 .footer {
   max-height: 600px;
-  margin-top: 10px;
+  margin-top: $gutter/2;
   color: #fff;
   background-color: #404749;
 
@@ -11,13 +11,13 @@
 
   &--open {
     margin: auto;
-    margin-top: 10px;
+    margin-top: $gutter/2;
     text-align: center;
   }
 
   &--contact {
     margin: auto;
-    margin-top: 10px;
+    margin-top: $gutter/2;
     text-align: center;
   }
 

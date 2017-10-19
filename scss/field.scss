@@ -1,5 +1,5 @@
 .field {
-  margin-top: 15px;
+  margin-top: $gutter;
   font-size: 0.8rem;
 
   &__input {
@@ -9,7 +9,7 @@
   }
 
   &__radio {
-    margin-top: 15px;
+    margin-top: $gutter;
     font-size: 0.8rem;
   }
 
@@ -24,7 +24,7 @@
 
 .information {
   &__um {
-    margin-top: 50px;
+    margin-top: $gutter*2;
     font-size: 1.25rem;
   }
 }

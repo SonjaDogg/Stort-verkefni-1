@@ -48,6 +48,9 @@ blockquote.about {
   font-size: 1.5rem;
   flex-direction: column; }
 
+.row--front {
+  margin-bottom: -20px; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -205,8 +208,8 @@ blockquote.about {
       padding-right: 0;
       padding-left: 0; } }
   .heading--one {
-    margin-top: 150px;
-    margin-left: 15px;
+    margin-top: 160px;
+    margin-left: 20px;
     font-size: 3rem;
     color: #fff;
     text-align: inherit; }
@@ -215,7 +218,7 @@ blockquote.about {
     font-size: 1.25rem;
     color: #fff; }
   .heading--three {
-    margin-top: 50px;
+    margin-top: 60px;
     font-size: 2rem;
     color: #000; }
     @media (max-width: 400px) {
@@ -266,7 +269,6 @@ blockquote.about {
     color: #eee;
     background-color: #333; }
   .button--one {
-    right: 90px;
     width: 70px;
     box-sizing: border-box;
     margin-bottom: 0;
@@ -274,14 +276,14 @@ blockquote.about {
     border: 0;
     transition: none; }
   .button--two {
-    right: 10px;
     width: 70px;
+    margin-right: 10px;
     margin-bottom: 0; }
   .button--three {
     display: block;
     padding: 5px 0;
     margin: 0 auto;
-    margin-bottom: 50px; }
+    margin-bottom: 60px; }
   .button a {
     color: #fff;
     text-decoration: none; }
@@ -293,11 +295,11 @@ blockquote.about {
   overflow: hidden; }
   .card__heading {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-family: "Open Sans";
     font-size: 1.125rem;
     font-style: italic;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     word-break: break-word; }
   .card__content {
@@ -350,7 +352,7 @@ blockquote.about {
   @media (min-width: 1000px) {
     .cardlist__col {
       width: 33.33333%;
-      margin-top: 150px;
+      margin-top: 120px;
       margin-right: 0;
       margin-left: 0; } }
 
@@ -379,14 +381,14 @@ blockquote.about {
     opacity: 0.7; }
 
 .field {
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 0.8rem; }
   .field__input {
     display: block;
     width: 100%;
     font-size: 0.8rem; }
   .field__radio {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 0.8rem; }
   .field__choice {
     width: 43%; }
@@ -394,7 +396,7 @@ blockquote.about {
     display: block; }
 
 .information__um {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 1.25rem; }
 
 .perk {
@@ -414,6 +416,3 @@ blockquote.about {
     .perk__check img {
       width: 100%;
       height: 100%; }
-
-.row--front {
-  margin-bottom: -20px; }
