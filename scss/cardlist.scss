@@ -7,7 +7,7 @@
   }
 
   &__col {
-    // höfum aðgang að mixin hér þar sem grid var importað á undan í styles.scss
+
     @include columns(12);
     display: flex;
     padding-right: 10px;
