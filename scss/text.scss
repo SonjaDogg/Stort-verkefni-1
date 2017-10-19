@@ -13,16 +13,19 @@
     padding-top: 1rem;
     font-size: 0.75rem;
   }
+
   &__punchline {
-    text-align: center;
+    padding-bottom: 20px;
+    margin: auto;
     font-size: 1.3125em;
     font-weight: bold;
-    margin: auto;
-    padding-bottom: 20px;
+    text-align: center;
   }
-  &__perk{
+
+  &__perk {
     font-size: 0.875em;
   }
+
   &--bold {
     font-size: 1.3125em;
     font-weight: bolder;
