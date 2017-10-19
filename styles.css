@@ -57,6 +57,8 @@ blockquote.about {
   @media (max-width: 600px) {
     .row {
       display: block; } }
+  .row--bottom {
+    margin-bottom: 60px; }
 
 .col {
   padding-right: 10px;

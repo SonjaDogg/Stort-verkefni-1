@@ -8,6 +8,11 @@
   @media (max-width: 600px) {
     display: block;
   }
+
+  &--bottom {
+    margin-bottom: 60px;
+  }
+
 }
 
 // mixin sem reiknar nákvæmar prósentur útfrá dálkum
