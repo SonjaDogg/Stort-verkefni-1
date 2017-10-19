@@ -218,6 +218,9 @@ blockquote.about {
     margin-top: 50px;
     font-size: 2rem;
     color: #000; }
+    @media (max-width: 400px) {
+      .heading--three {
+        margin-top: 20px; } }
 
 .text {
   font-family: "Open Sans"; }
