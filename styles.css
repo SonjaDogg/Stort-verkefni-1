@@ -386,13 +386,20 @@ blockquote.about {
     display: block;
     width: 100%;
     font-size: 0.8rem; }
-  .field__radio {
-    margin-top: 20px;
+  .field--radio {
+    display: block;
+    margin-top: -10px;
     font-size: 0.8rem; }
-  .field__choice {
+  .field__radio {
+    margin-top: 20px; }
+  .field--expiry {
+    display: flex;
+    width: 100%; }
+  .field__expiry {
     width: 43%; }
   .field__label {
-    display: block; }
+    display: block;
+    width: 100%; }
 
 .information__um {
   margin-top: 40px;

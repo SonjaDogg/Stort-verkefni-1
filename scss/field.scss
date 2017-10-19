@@ -8,17 +8,28 @@
     font-size: 0.8rem;
   }
 
-  &__radio {
-    margin-top: $gutter;
+  &--radio {
+    display: block;
+    margin-top: -$gutter/2;
     font-size: 0.8rem;
   }
 
-  &__choice {
+  &__radio {
+    margin-top: $gutter;
+  }
+
+  &--expiry {
+    display: flex;
+    width: 100%;
+  }
+
+  &__expiry {
     width: 43%;
   }
 
   &__label {
     display: block;
+    width: 100%;
   }
 }
 
