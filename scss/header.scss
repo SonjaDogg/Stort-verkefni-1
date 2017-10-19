@@ -32,6 +32,8 @@
     .brand {
       padding-bottom: 50px;
       font-size: 3em;
+      font-style: "Roboto Slab";
+      font-weight: bold;
       opacity: 0;
       transition: opacity 3s ease 2s;
     }
@@ -46,6 +48,8 @@
   // transitions when cursor hovers head image
   &--front:hover {
     .brand {
+      font-style: "Roboto Slab";
+      font-weight: bold;
       opacity: 1;
     }
 

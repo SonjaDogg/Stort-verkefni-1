@@ -133,6 +133,8 @@ blockquote.about {
     .header--front .brand {
       padding-bottom: 50px;
       font-size: 3em;
+      font-style: "Roboto Slab";
+      font-weight: bold;
       opacity: 0;
       transition: opacity 3s ease 2s; }
     .header--front .button {
@@ -141,6 +143,8 @@ blockquote.about {
       opacity: 0;
       transition: opacity 3s ease 3s; }
   .header--front:hover .brand {
+    font-style: "Roboto Slab";
+    font-weight: bold;
     opacity: 1; }
   .header--front:hover .announcement {
     opacity: 1; }
