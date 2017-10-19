@@ -98,11 +98,13 @@ blockquote.about {
 
 @media (max-width: 600px) {
   .offset-sm-0 {
-    margin-left: 0; } }
+    margin-right: 20px;
+    margin-left: 20px; } }
 
 @media (max-width: 400px) {
   .offset-xs-0 {
-    margin-left: 0; } }
+    margin-right: 20px;
+    margin-left: 20px; } }
 
 .header {
   position: relative;
@@ -382,7 +384,9 @@ blockquote.about {
     margin-top: 15px;
     font-size: 0.8rem; }
   .field__choice {
-    width: 39.5%; }
+    width: 43%; }
+  .field__label {
+    display: block; }
 
 .information__um {
   margin-top: 50px;

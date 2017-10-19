@@ -88,7 +88,8 @@
   &-sm {
     @media (max-width: 600px) {
       &-0 {
-        margin-left: 0;
+        margin-right: $gutter;
+        margin-left: $gutter;
       }
     }
   }
@@ -96,7 +97,8 @@
   &-xs {
     @media (max-width: 400px) {
       &-0 {
-        margin-left: 0;
+        margin-right: $gutter;
+        margin-left: $gutter;
       }
     }
   }
