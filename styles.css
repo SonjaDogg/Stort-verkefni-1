@@ -251,7 +251,6 @@ blockquote.about {
   padding: 10px 5px;
   margin-bottom: 50px;
   overflow: hidden;
-  font-family: Lato, helvetica, arial, sans-serif;
   font-size: 1rem;
   color: #eee;
   text-align: center;
@@ -272,7 +271,8 @@ blockquote.about {
     box-sizing: border-box;
     margin-bottom: 0;
     background-color: transparent;
-    border: 0; }
+    border: 0;
+    transition: none; }
   .button--two {
     right: 10px;
     width: 70px;
