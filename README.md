@@ -7,34 +7,37 @@ To view the exercise it is only necessary to open in browser the files index.htm
 
 ## GENERAL ORGANISATION OF THE PROJECT
 
-The exercise has three html files, one for each page. These are:
-* index.html
-* um.html
-* form.html
+The exercise has four html files, one for each page. These are:
+
+* index.html      - front page of the project
+* um.html         - about page
+* form.html       - form page
+* elements.html   - elements page
 
 Each html file refers to the css files:
+
 * grid.css        
 * styleguide.css
 * styles.css
 
 To construct the css files several scss files have been used. The reason for this is to have a much cleaner and more structured organisation of css of the project. All the scss files are written using SASS and translated using node-sass tool from the package manager npm.
-The scss files in the project are:  
-* styles.scss   
-* button.scss   
-* card.scss
-* cardlist.scss
-* field.scss
-* footer.scss
-* footer2.scss
-* grid.scss
-* header.scss
-* heading.scss
-* perk.scss
-* text.scss
+The scss files in the project are:
+
+* styles.scss     - contains all the styles for the project
+* button.scss     - styles for the buttons on all .html pages
+* card.scss       - styles for the cards on index.html
+* cardlist.scss   - styles for the cardlist on index.html
+* field.scss      - styles for input fields on form.html
+* footer.scss     - styles for the footer on all .html pages
+* grid.scss       - styles for the grid on all .html pages
+* header.scss     - styles for the header on all .html pages
+* heading.scss    - styles for the headings on all .html pages
+* perk.scss       - styles for index.html
+* text.scss       - styles for all text on all .html pages
 
 
 ## AUTHORS
 
 Sonja Dögg Halldórsdóttir: sdh21@hi.is
-Unnur Ása Bjarnadóttir: uab1@hi.is
+Unnur Bjarnadóttir: uab1@hi.is
 Daniel Crespo Munoz: dcm2@hi.is
