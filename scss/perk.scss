@@ -1,0 +1,26 @@
+.perk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+
+  .odyr,
+  .thaigilegt,
+  .naudsynlegt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__check {
+
+    width: 1.2em;
+    min-width: 1.2em;
+    max-width: 1.2em;
+
+    img {
+
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

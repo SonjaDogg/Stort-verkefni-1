@@ -113,29 +113,29 @@ blockquote.about {
   background-color: #000; }
   .header--front {
     display: flex;
-    flex-direction: column;
     width: 100%;
     min-height: 600px;
+    flex-direction: column;
     background: transparent url("images/bg.jpg") no-repeat fixed 50% 50%;
     background-size: cover; }
     .header--front .content {
-      margin: auto;
       display: flex;
+      margin: auto;
       flex-direction: column;
       align-items: center; }
     .header--front .content .announcement {
-      font-size: 1.5em;
       padding-bottom: 20px;
+      font-size: 1.5em;
       opacity: 0;
       transition: opacity 3s ease 1s; }
     .header--front .brand {
-      font-size: 3em;
       padding-bottom: 50px;
+      font-size: 3em;
       opacity: 0;
       transition: opacity 3s ease 2s; }
     .header--front .button {
-      text-align: center;
       max-width: 125px;
+      text-align: center;
       opacity: 0;
       transition: opacity 3s ease 3s; }
   .header--front:hover .brand {
@@ -387,6 +387,24 @@ blockquote.about {
 .information__um {
   margin-top: 50px;
   font-size: 1.25rem; }
+
+.perk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between; }
+  .perk .odyr,
+  .perk .thaigilegt,
+  .perk .naudsynlegt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; }
+  .perk__check {
+    width: 1.2em;
+    min-width: 1.2em;
+    max-width: 1.2em; }
+    .perk__check img {
+      width: 100%;
+      height: 100%; }
 
 .row--front {
   margin-bottom: -20px; }
